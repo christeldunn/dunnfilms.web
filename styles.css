@@ -500,26 +500,24 @@
 .about .production-image-section .container {
   width: 100%;
 }
-/* BANNER DE VIDEO DUNN FILMS */
+/* BANNER DE VIDEO - DUNN FILMS */
 .top-video-banner {
-  width: 62%;
-  max-width: 1050px;
-  margin: 28px auto 42px;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
-  background: #080808;
-  border: 1px solid rgba(215, 173, 90, 0.35);
+  background: #000;
+  border: none;
+  border-radius: 0;
 }
 
 .top-video-banner video {
   display: block;
   width: 100%;
   height: auto;
-  object-fit: contain;
-}
-
-@media (max-width: 760px) {
-  .top-video-banner {
-    width: 94%;
-    margin: 18px auto 30px;
-  }
+  max-width: none;
+  margin: 0;
+  object-fit: cover;
 }
